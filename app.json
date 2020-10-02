@@ -1,0 +1,36 @@
+{
+  "expo": {
+    "name": "Transport",
+    "slug": "transport",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/Logo.png",
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "splash": {
+        "image": "./assets/splash.png",
+        "resizeMode": "cover"
+      },
+      "supportsTablet": true
+    },
+    "android": {
+      "splash": {
+        "ldpi": "./assets/drawable-ldpi/splash.png",
+        "mdpi": "./assets/drawable-mdpi/splash.png",
+        "hdpi": "./assets/drawable-hdpi/splash.png",
+        "xhdpi": "./assets/drawable-xhdpi/splash.png",
+        "xxhdpi": "./assets/drawable-xxhdpi/splash.png",
+        "xxxhdpi": "./assets/drawable-xxxhdpi/splash.png",
+        "resizeMode": "cover"
+      }
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    }
+  }
+}
